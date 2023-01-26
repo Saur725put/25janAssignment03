@@ -1,0 +1,11 @@
+Q3
+#include <iostream>
+using namespace std;
+int main(){
+	float userFloat;
+	cin>> userFloat;
+	int convertedInt = static_cast<int>(userFloat);
+    cout << "Original floating point number: " << userFloat << endl;
+    cout << "Converted integer: " << convertedInt ;
+    return 0;
+}
